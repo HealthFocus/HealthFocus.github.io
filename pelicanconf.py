@@ -13,8 +13,11 @@ EMAIL = "support@healthfocus.io"
 PHONE = "+1 248 238 5833"
 OFFICE_ADDRESS = "8031 Main Street, Suite 201, Dexter, Michigan 48130"
 
-PAGE_URL = "{slug}"
-PAGE_SAVE_AS = "{slug}/index.html"
+# Pretty URLs - Will also have to update link to privacy-policy in themes/healthfocus/templates/base.html
+# PAGE_URL = "{slug}"
+# PAGE_SAVE_AS = "{slug}/index.html"
+PAGE_URL = "{slug}.html"
+PAGE_SAVE_AS = "{slug}.html"
 
 PATH = "content"
 
@@ -59,6 +62,11 @@ PARTNERS = (
         "client-6.png",
         "https://healthcare.ascension.org/",
     ),
+    (
+        "The Physician Alliance",
+        "client-7.png",
+        "https://thephysicianalliance.org/",
+    ),    
 )
 
 TEAM = (

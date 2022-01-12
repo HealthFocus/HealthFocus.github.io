@@ -2,7 +2,12 @@
 
 {% block content %}
 <!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex align-items-center">
+<section id="hero" class="d-flex align-items-center" 
+    style="width: 100%;
+            height: 90vh;
+            background: url('images/hero-bg2.jpg') top center;
+            background-size: cover;
+            margin-bottom: -200px;">
     <div class="container">
         <h1>Focus on what matters</h1>
         <h2>We provide tools to help your physicians focus<br /> on what matters most... <b>their patients</b>.</h2>
@@ -67,9 +72,9 @@
 
         <div class="row">
             <div class="col-xl-5 col-lg-6 d-flex"
-                style="background-image: url('theme/img/application.jpg');background-repeat:no-repeat;background-attachment: inherit;background-position: center;">
+                style="background-image: url('images/application.jpg');background-repeat:no-repeat;background-attachment: inherit;background-position: center;">
                 <!--<a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>-->
-                <!--<img src="theme/img/t-q-bKOfm4KNt64-unsplash.jpg" class="img-fluid">-->
+                <!--<img src="images/t-q-bKOfm4KNt64-unsplash.jpg" class="img-fluid">-->
                 <!---<br /><span style="text-align: right;">Photo by <a href="https://unsplash.com/@seemoris?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Caleb George</a> on <a href="https://unsplash.com/s/photos/detroit-fist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>-->
             </div>
 
@@ -144,9 +149,9 @@
             </div>
 
             <div class="col-xl-5 col-lg-6 d-flex"
-                style="background-image: url('theme/img/about2.jpg');background-repeat:no-repeat;background-attachment: inherit;background-position: center;">
+                style="background-image: url('images/about2.jpg');background-repeat:no-repeat;background-attachment: inherit;background-position: center;">
                 <!--<a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>-->
-                <!--<img src="theme/img/about2.jpg" class="img-fluid">-->
+                <!--<img src="images/about2.jpg" class="img-fluid">-->
                 <!---<br /><span style="text-align: right;">Photo by <a href="https://unsplash.com/@seemoris?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Caleb George</a> on <a href="https://unsplash.com/s/photos/detroit-fist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>-->
             </div>
 
@@ -171,7 +176,7 @@
                                 <a href="{{ partner_url }}">
                                     <div class="container text-center">
                                         <h3>{{ partner_name }}</h3><br />
-                                        <img src="theme/img/clients/{{ partner_img }}" height="100px">
+                                        <img src="images/clients/{{ partner_img }}" height="100px">
                                     </div>
                             </div></a>
                         </div>
@@ -348,8 +353,8 @@
             {% for gallery_img in GALLERY %}
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="theme/img/gallery/{{ gallery_img }}" class="galelry-lightbox">
-                            <img src="theme/img/gallery/{{ gallery_img }}" alt="" class="img-fluid">
+                        <a href="images/gallery/{{ gallery_img }}" class="galelry-lightbox">
+                            <img src="images/gallery/{{ gallery_img }}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
