@@ -789,7 +789,7 @@ section {
 }
 
 .about .video-box {
-  background: url("{{ SITEURL }}/images/about2.jpg") center center no-repeat;
+  background: url("/healthfocus-dot-io/images/hero-bg2.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
