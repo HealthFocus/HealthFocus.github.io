@@ -74,7 +74,7 @@ TEAM = (
         "name": "James W. Morris",
         "title": "Chief Executive Officer",
         "img": "james.jpg",
-        "description": "When not at his desk, you might catch him at the airport with his camera before embarking on a world-wide adventure.",
+        "description": "James has worked in pharmaceutical, urgent care, and physician organization settings as a technologist and technical director."
         "social": (
             (
                 "LinkedIn",
@@ -87,9 +87,7 @@ TEAM = (
         "name": "Debra Roberts",
         "title": "VP, Operations",
         "img": "debra.jpg",
-        "description": "If you"
-        "re looking for Deb, just follow the sun! When not in Michigan, you"
-        "ll commonly find her on the beach in Florida.",
+        "description": "Deb has extensive management experience working with physician organizations and directly with practice units.",
         "social": (
             (
                 "LinkedIn",
@@ -102,12 +100,51 @@ TEAM = (
         "name": "Michael Wilson",
         "title": "Enterprise Architect",
         "img": "michael.jpg",
-        "description": "Michael"
-        "s artistic side extends beyond network and UML diagramming to include figures in pen & ink.",
+        "description": "Michael has worked as a developer and manager on both the insurance and physician organization sides.",
         "social": (
             (
                 "LinkedIn",
                 "https://www.linkedin.com/in/michaeldavidwilson/",
+                "ri-linkedin-box-fill",
+            ),
+        ),
+    },
+    {
+        "name": "James Malayang",
+        "title": "Customer Success Manager",
+        "img": "",
+        "description": "James is our newest member of the Health Focus team. He has a background in healthcare project management and"
+        " will be working to ensure that our customers' needs are addressed promptly."
+        "social": (
+            (
+                "LinkedIn",
+                "https://www.linkedin.com/in/james-malayang-150bba17/",
+                "ri-linkedin-box-fill",
+            ),
+        ),
+    },
+    {
+        "name": "Timothy Potvin",
+        "title": "Database Developer",
+        "img": "",
+        "description": "Tim works closely with our team during QC cycles to improve data mapping and integrity.",
+        "social": (
+            (
+                "LinkedIn",
+                "https://www.linkedin.com/in/timothy-potvin-7a7547219/",
+                "ri-linkedin-box-fill",
+            ),
+        ),
+    },
+    {
+        "name": "Ralph Luis",
+        "title": "Database Developer",
+        "img": "",
+        "description": "Ralph supports and maintains the many data interfaces feeding the Health Focus warehouses.",
+        "social": (
+            (
+                "LinkedIn",
+                "https://www.linkedin.com/in/ralph-luis-4b8a307b/",
                 "ri-linkedin-box-fill",
             ),
         ),
