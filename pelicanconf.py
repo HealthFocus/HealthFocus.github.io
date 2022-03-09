@@ -74,7 +74,7 @@ TEAM = (
         "name": "James W. Morris",
         "title": "Chief Executive Officer",
         "img": "james.jpg",
-        "description": "James has worked in pharmaceutical, urgent care, and physician organization settings as a technologist and technical director."
+        "description": "James has worked in pharmaceutical, urgent care, and physician organization settings as a technologist and technical director.",
         "social": (
             (
                 "LinkedIn",
@@ -114,7 +114,7 @@ TEAM = (
         "title": "Customer Success Manager",
         "img": "",
         "description": "James is our newest member of the Health Focus team. He has a background in healthcare project management and"
-        " will be working to ensure that our customers' needs are addressed promptly."
+        " will be working to ensure that our customers' needs are addressed promptly.",
         "social": (
             (
                 "LinkedIn",
