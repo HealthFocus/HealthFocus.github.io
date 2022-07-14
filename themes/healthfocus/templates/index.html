@@ -314,7 +314,11 @@
             {% for t in TEAM %}
                 <div class="col-lg-6 bg-white">
                     <div class="member d-flex align-items-start">
-                        <div class="pic"><img src="images/staff/{{ t.img }}" class="img-fluid" alt=""></div>
+                        <div class="pic">
+                            {% if t.img %}
+                                <img src="images/staff/{{ t.img }}" class="img-fluid" alt="">
+                            {% endif %}
+                        </div>
                         <div class="member-info">
                             <h4>{{ t.name }}</h4>
                             <span>{{ t.title }}</span>
@@ -353,7 +357,7 @@
             {% for gallery_img in GALLERY %}
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="images/gallery/{{ gallery_img }}" class="galelry-lightbox">
+                        <a href="images/gallery/{{ gallery_img }}" class="gallery-lightbox">
                             <img src="images/gallery/{{ gallery_img }}" alt="" class="img-fluid">
                         </a>
                     </div>

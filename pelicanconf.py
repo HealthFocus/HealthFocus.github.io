@@ -170,3 +170,7 @@ TEAM = (
 GALLERY = sorted(
     [i.name for i in root_path.joinpath("content/images/gallery").glob("*.jpg")]
 )
+
+LOAD_CONTENT_CACHE = False
+DELETE_OUTPUT_DIRECTORY = True
+DIRECT_TEMPLATES = ['index']
