@@ -48,7 +48,7 @@ DEFAULT_PAGINATION = False
 THEME = "themes/healthfocus"
 
 PARTNERS = (
-    ("Huron Valley Physicians Association", "client-1.png", "https://www.hvpa.com"),
+    ("Huron Valley Practice Affiliates, Inc", "client-1.png", "https://www.hvpa.com"),
     ("Livingston Physician Organization", "client-2.png", "https://www.lpollc.com"),
     ("Great Lakes Physicians Organization", "client-3.png", "https://www.glpo.org"),
     ("Northern Physician Organization", "client-4.png", "https://www.npoinc.org"),
