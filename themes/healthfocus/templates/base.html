@@ -167,8 +167,8 @@
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
         {% for social_site, social_url, social_icon in SOCIAL %}
-          <a href="{{ social_url }}">
-            <i class="bx bxl-{{ social_icon }}" aria-hidden="true" title="{{ social_site }}">
+          <a href="{{ social_url }}" title="{{ social_site }}">
+            <i class="bx bxl-{{ social_icon }}" aria-hidden="true">
               <span class="sr-only">{{ social_site }}</span>
             </i>
           </a>
@@ -178,7 +178,7 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center" title="Return to top of page"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="{{ SITEURL }}/theme/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
