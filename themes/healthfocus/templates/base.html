@@ -59,8 +59,8 @@
       </div>
       <div class="d-none d-lg-flex social-links align-items-center">
         {% for social_site, social_url, social_icon in SOCIAL %}
-          <a href="{{ social_url }}">
-            <i class="bi bi-{{ social_icon }}" aria-hidden="true" title="{{ social_site }}">
+          <a href="{{ social_url }}" title="{{ social_site }}">
+            <i class="bi bi-{{ social_icon }}" aria-hidden="true">
               <span class="sr-only">{{ social_site }}</span>
             </i>
           </a>
@@ -144,7 +144,7 @@
 
           <div class="col-lg-4 col-md-6 footer-newsletter" style="text-align:center">
               <div><a href="mailto:{{ EMAIL }}" target="_blank" class="appointment-btn" style="margin-left:0;"><span class="d-none d-md-inline">Schedule a</span> Demo</a></div>
-              <div class="w-50 p-3 mx-auto"><img src="images/21972-312_SOC_NonCPA.png" class="img-fluid" /></div>
+              <div class="w-50 p-3 mx-auto"><img alt="SOC 2 Compliance Badge" src="images/21972-312_SOC_NonCPA.png" class="img-fluid" /></div>
           </div>
 
         </div>
