@@ -325,8 +325,8 @@
                             <p>{{ t.description }}</p>
                             <div class="social">
                                 {% for social_site, social_url, social_icon in t.social %}
-                                <a href="{{ social_url }}" target="_blank"> <i
-                                    class="{{ social_icon }}"></i> </a>
+                                <a href="{{ social_url }}" target="_blank" title="{{ social_site }}"><i
+                                    class="{{ social_icon }}"></i></a>
                                 {% endfor %}
                             </div>
                         </div>
