@@ -29,7 +29,7 @@
                         providing a clear and complete picture of patient care.
                     </p>
                     <div class="text-center">
-                        <a href="#about" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                        <a href="#about" class="more-btn">Learn More<i class="bx bx-chevron-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -175,8 +175,7 @@
                             <div class="testimonial-item">
                                 <a href="{{ partner_url }}">
                                     <div class="container text-center">
-                                        <h3>{{ partner_name }}</h3><br />
-                                        <img src="images/clients/{{ partner_img }}" height="100px">
+                                        <img src="images/clients/{{ partner_img }}" alt="{{ partner_name }}" height="100px">
                                     </div>
                             </div></a>
                         </div>
@@ -206,7 +205,7 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box">
                     <div class="icon"><i class="bx bx-data"></i></div>
-                    <h4><a href="">Data Warehouse</a></h4>
+                    <h3><a href="">Data Warehouse</a></h3>
                     <p>Capture, analyze, report and send data from 100+ different interfaces. We provide direct access
                         for organizational reporting.</p>
                 </div>
@@ -215,7 +214,7 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-display"></i></div>
-                    <h4><a href="">Health Focus Registry</a></h4>
+                    <h3><a href="">Health Focus Registry</a></h3>
                     <p>Securely interact with performance, financial, care management, risk adjustment and reporting
                         tools through a single platform that covers your entire patient population.</p>
                 </div>
@@ -224,7 +223,7 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-person-check"></i></div>
-                    <h4><a href="">Master Patient Index</a></h4>
+                    <h3><a href="">Master Patient Index</a></h3>
                     <p>Our master patient index unifies patient records from across many different points of care. From
                         the physician office to laboratory to emergency room we collapse records into a single patient
                         view.</p>
@@ -234,7 +233,7 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-card-checklist"></i></div>
-                    <h4><a href="">Measure Engine</a></h4>
+                    <h3><a href="">Measure Engine</a></h3>
                     <p>Our custom-built measure engine allows us to quickly respond to changing incentives and best
                         practice. We deploy measures that target your specific organizational priorities.</p>
                 </div>
@@ -243,7 +242,7 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-chevron-double-up"></i></div>
-                    <h4><a href="">Risk Adjustment</a></h4>
+                    <h3><a href="">Risk Adjustment</a></h3>
                     <p>Capture diagnosis opportunities to align risk to reality. Health Focus reviews historical
                         diagnoses from primary, specialty and other acute environments to ensure relevant conditions are
                         re-diagnosed each year. Our models review clinical and laboratory results to suggest possible
@@ -254,7 +253,7 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-receipt-cutoff"></i></div>
-                    <h4><a href="">Financial Engine</a></h4>
+                    <h3><a href="">Events Engine</a></h3>
                     <p>Health Focus cleans, condenses and categorizes insurance claims to highlight the cost of patient
                         care. Risk-adjusted allocation allows for continuous review of targets and categorical expense.
                         Review financial reports for all of your insurance products in one location and identify
@@ -265,7 +264,7 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-person-bounding-box"></i></div>
-                    <h4><a href="">Care Management</a></h4>
+                    <h3><a href="">Care Management</a></h3>
                     <p>Identify eligible and high-risk patients for care management services. Risk scores are captured
                         across health systems and calculated within our warehouse. Track social needs and internal
                         referrals to community resources. Health Focus provides real-time progress for PDCM and other
@@ -276,7 +275,7 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-arrow-left-right"></i></div>
-                    <h4><a href="">Data Exchange</a></h4>
+                    <h3><a href="">Data Exchange</a></h3>
                     <p>Health Focus sends supplemental data files directly to insurance companies and through the
                         Michigan Health Information Network as a part of the PPQC program. We help ensure that every
                         partner understands every opportunity for every patient.</p>
@@ -286,7 +285,7 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-people"></i></div>
-                    <h4><a href="">PO Collaboration</a></h4>
+                    <h3><a href="">PO Collaboration</a></h3>
                     <p>Physicians have helped shape Health Focus from the very beginning. Collaborate with us and our
                         member organizations to help drive new features and see market change as opportunity instead of
                         a burden. Our priorities are driven by the collective organizations that we serve.</p>
@@ -320,13 +319,13 @@
                             {% endif %}
                         </div>
                         <div class="member-info">
-                            <h4>{{ t.name }}</h4>
-                            <span>{{ t.title }}</span>
+                            <h3>{{ t.name }}</h3>
+                            <h4>{{ t.title }}</h4>
                             <p>{{ t.description }}</p>
                             <div class="social">
                                 {% for social_site, social_url, social_icon in t.social %}
-                                <a href="{{ social_url }}" target="_blank"> <i
-                                    class="{{ social_icon }}"></i> </a>
+                                <a href="{{ social_url }}" target="_blank" title="{{ social_site }}"><i
+                                    class="{{ social_icon }}"></i></a>
                                 {% endfor %}
                             </div>
                         </div>
@@ -357,8 +356,8 @@
             {% for gallery_img in GALLERY %}
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="images/gallery/{{ gallery_img }}" class="gallery-lightbox">
-                            <img src="images/gallery/{{ gallery_img }}" alt="" class="img-fluid">
+                        <a href="images/gallery/{{ gallery_img.src }}" class="gallery-lightbox" title="{{ gallery_img.title }}">
+                            <img src="images/gallery/{{ gallery_img.src }}" alt="{{ gallery_img.title }}" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -391,7 +390,7 @@
                 <div class="info">
                     <div class="address">
                         <i class="bi bi-geo-alt"></i>
-                        <h4>Address:</h4>
+                        <h3>Address:</h3>
                         <p>{{ OFFICE_ADDRESS }}</p>
                     </div>
                 </div>
@@ -399,7 +398,7 @@
                 <div class="info">
                     <div class="email">
                         <i class="bi bi-envelope"></i>
-                        <h4>Email:</h4>
+                        <h3>Email:</h3>
                         <p>{{ EMAIL }}</p>
                     </div>
                 </div>
@@ -407,7 +406,7 @@
                 <div class="info">
                     <div class="phone">
                         <i class="bi bi-phone"></i>
-                        <h4>Call:</h4>
+                        <h3>Call:</h3>
                         <p>{{ PHONE }}</p>
                     </div>
                 </div>
@@ -415,6 +414,7 @@
 
             <div class="col-lg-8 mt-5">
                 <iframe style="border:0; width: 100%; height: 350px;"
+                    title="Map of office location"
                     src="https://maps.google.com/maps?q=8031%20Main%20Street,%20Suite%20201,%20Dexter,%20Michigan%2048130&t=&z=15&ie=UTF8&iwloc=&output=embed"
                     frameborder="0" allowfullscreen></iframe>
             </div>

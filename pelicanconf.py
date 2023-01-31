@@ -167,9 +167,21 @@ TEAM = (
     },
 )
 
-GALLERY = sorted(
-    [i.name for i in root_path.joinpath("content/images/gallery").glob("*.jpg")]
-)
+GALLERY = [
+    # src must be image at content/images/gallery
+    {"title": "Network Quality Dashboard", "src": "gallery-1.jpg"},
+    {"title": "Provider Quality Dashboard", "src": "gallery-2.jpg"},
+    {"title": "Care Management Dashboard", "src": "gallery-3.jpg"},
+    {"title": "Cost and Utilization Dashboard", "src": "gallery-4.jpg"},
+    {"title": "Transitions of Care", "src": "gallery-5.jpg"},
+    {"title": "Full Dashboard Screen", "src": "gallery-6.jpg"},
+    {"title": "TCM Tracker", "src": "gallery-7.jpg"},
+    {"title": "Generate Patient Lists", "src": "gallery-8.jpg"},
+    {"title": "Quality Summary Report", "src": "gallery-9.jpg"},
+    {"title": "Patient Conditions", "src": "gallery-10.jpg"},
+    {"title": "Patient Quality Measures", "src": "gallery-11.jpg"},
+    {"title": "User Administration", "src": "gallery-12.jpg"},
+]
 
 LOAD_CONTENT_CACHE = False
 DIRECT_TEMPLATES = ['index']
